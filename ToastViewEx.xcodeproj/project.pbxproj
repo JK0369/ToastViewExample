@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E922F125DE9FF5004CB4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E922F025DE9FF5004CB4CC /* AppDelegate.swift */; };
+		E0E922F325DE9FF5004CB4CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E922F225DE9FF5004CB4CC /* SceneDelegate.swift */; };
+		E0E922F525DE9FF5004CB4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E922F425DE9FF5004CB4CC /* ViewController.swift */; };
+		E0E922F825DE9FF5004CB4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E922F625DE9FF5004CB4CC /* Main.storyboard */; };
+		E0E922FA25DE9FF7004CB4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E922F925DE9FF7004CB4CC /* Assets.xcassets */; };
+		E0E922FD25DE9FF7004CB4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E922FB25DE9FF7004CB4CC /* LaunchScreen.storyboard */; };
+		E0E9230D25DEB1B9004CB4CC /* ToastMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E9230C25DEB1B9004CB4CC /* ToastMessageView.xib */; };
+		E0E9231025DEB1BF004CB4CC /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E9230F25DEB1BF004CB4CC /* ToastMessageView.swift */; };
+		FE90D9E6EB270C048DC8C8E3 /* Pods_ToastViewEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E72134E99265D911B8D06 /* Pods_ToastViewEx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AD61A2C1C7C615012C2BEC8 /* Pods-ToastViewEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastViewEx.release.xcconfig"; path = "Target Support Files/Pods-ToastViewEx/Pods-ToastViewEx.release.xcconfig"; sourceTree = "<group>"; };
+		643E72134E99265D911B8D06 /* Pods_ToastViewEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastViewEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E922ED25DE9FF5004CB4CC /* ToastViewEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastViewEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E922F025DE9FF5004CB4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0E922F225DE9FF5004CB4CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0E922F425DE9FF5004CB4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0E922F725DE9FF5004CB4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E922F925DE9FF7004CB4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E922FC25DE9FF7004CB4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0E922FE25DE9FF7004CB4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E9230C25DEB1B9004CB4CC /* ToastMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToastMessageView.xib; sourceTree = "<group>"; };
+		E0E9230F25DEB1BF004CB4CC /* ToastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageView.swift; sourceTree = "<group>"; };
+		F1A6DA3C165F1123C0F7C04D /* Pods-ToastViewEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastViewEx.debug.xcconfig"; path = "Target Support Files/Pods-ToastViewEx/Pods-ToastViewEx.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E922EA25DE9FF5004CB4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE90D9E6EB270C048DC8C8E3 /* Pods_ToastViewEx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB6BC2D77D4CA4B0A89C46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				643E72134E99265D911B8D06 /* Pods_ToastViewEx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB62624C7D389D70F0864588 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1A6DA3C165F1123C0F7C04D /* Pods-ToastViewEx.debug.xcconfig */,
+				5AD61A2C1C7C615012C2BEC8 /* Pods-ToastViewEx.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0E922E425DE9FF5004CB4CC = {
+			isa = PBXGroup;
+			children = (
+				E0E922EF25DE9FF5004CB4CC /* ToastViewEx */,
+				E0E922EE25DE9FF5004CB4CC /* Products */,
+				BB62624C7D389D70F0864588 /* Pods */,
+				1EB6BC2D77D4CA4B0A89C46C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E922EE25DE9FF5004CB4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E922ED25DE9FF5004CB4CC /* ToastViewEx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E922EF25DE9FF5004CB4CC /* ToastViewEx */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9230B25DEB1AA004CB4CC /* Custom */,
+				E0E922F025DE9FF5004CB4CC /* AppDelegate.swift */,
+				E0E922F225DE9FF5004CB4CC /* SceneDelegate.swift */,
+				E0E922F425DE9FF5004CB4CC /* ViewController.swift */,
+				E0E922F625DE9FF5004CB4CC /* Main.storyboard */,
+				E0E922F925DE9FF7004CB4CC /* Assets.xcassets */,
+				E0E922FB25DE9FF7004CB4CC /* LaunchScreen.storyboard */,
+				E0E922FE25DE9FF7004CB4CC /* Info.plist */,
+			);
+			path = ToastViewEx;
+			sourceTree = "<group>";
+		};
+		E0E9230B25DEB1AA004CB4CC /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9230C25DEB1B9004CB4CC /* ToastMessageView.xib */,
+				E0E9230F25DEB1BF004CB4CC /* ToastMessageView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E922EC25DE9FF5004CB4CC /* ToastViewEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E9230125DE9FF7004CB4CC /* Build configuration list for PBXNativeTarget "ToastViewEx" */;
+			buildPhases = (
+				A952080C9B3F32B4C0064584 /* [CP] Check Pods Manifest.lock */,
+				E0E922E925DE9FF5004CB4CC /* Sources */,
+				E0E922EA25DE9FF5004CB4CC /* Frameworks */,
+				E0E922EB25DE9FF5004CB4CC /* Resources */,
+				6F03975EABB3584AC8B97D50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToastViewEx;
+			productName = ToastViewEx;
+			productReference = E0E922ED25DE9FF5004CB4CC /* ToastViewEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E922E525DE9FF5004CB4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E0E922EC25DE9FF5004CB4CC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E0E922E825DE9FF5004CB4CC /* Build configuration list for PBXProject "ToastViewEx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E922E425DE9FF5004CB4CC;
+			productRefGroup = E0E922EE25DE9FF5004CB4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E922EC25DE9FF5004CB4CC /* ToastViewEx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E922EB25DE9FF5004CB4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E9230D25DEB1B9004CB4CC /* ToastMessageView.xib in Resources */,
+				E0E922FD25DE9FF7004CB4CC /* LaunchScreen.storyboard in Resources */,
+				E0E922FA25DE9FF7004CB4CC /* Assets.xcassets in Resources */,
+				E0E922F825DE9FF5004CB4CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F03975EABB3584AC8B97D50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToastViewEx/Pods-ToastViewEx-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToastViewEx/Pods-ToastViewEx-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToastViewEx/Pods-ToastViewEx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A952080C9B3F32B4C0064584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToastViewEx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E922E925DE9FF5004CB4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E9231025DEB1BF004CB4CC /* ToastMessageView.swift in Sources */,
+				E0E922F525DE9FF5004CB4CC /* ViewController.swift in Sources */,
+				E0E922F125DE9FF5004CB4CC /* AppDelegate.swift in Sources */,
+				E0E922F325DE9FF5004CB4CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0E922F625DE9FF5004CB4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E922F725DE9FF5004CB4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E922FB25DE9FF7004CB4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E922FC25DE9FF7004CB4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E922FF25DE9FF7004CB4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0E9230025DE9FF7004CB4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E9230225DE9FF7004CB4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A6DA3C165F1123C0F7C04D /* Pods-ToastViewEx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				INFOPLIST_FILE = ToastViewEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ToastViewEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0E9230325DE9FF7004CB4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD61A2C1C7C615012C2BEC8 /* Pods-ToastViewEx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				INFOPLIST_FILE = ToastViewEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ToastViewEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E922E825DE9FF5004CB4CC /* Build configuration list for PBXProject "ToastViewEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E922FF25DE9FF7004CB4CC /* Debug */,
+				E0E9230025DE9FF7004CB4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E9230125DE9FF7004CB4CC /* Build configuration list for PBXNativeTarget "ToastViewEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E9230225DE9FF7004CB4CC /* Debug */,
+				E0E9230325DE9FF7004CB4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E922E525DE9FF5004CB4CC /* Project object */;
+}
